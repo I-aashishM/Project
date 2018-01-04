@@ -1,0 +1,528 @@
+body{
+    margin: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+
+/*************HEADER*******************/
+
+#header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#header .logo img{
+    width: 100px;
+    height: 100px;
+}
+#header .logo{
+    margin: 0px;
+}
+/****************NAV*******************/
+
+#main-nav ul{
+    display: flex;
+    list-style: none;
+    padding: 20px 0px 0px;
+    margin-top: 23px;
+}
+#main-nav ul li{
+    margin: 0px 15px;
+}
+#main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+#main-nav ul li a:hover{
+    color: #BDBDBD;
+}
+/****************HOME-MAIN***********************/
+#main{
+    position: relative;
+}
+#main .img1{
+    display: inline-block;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    margin-top: 104px;
+/*    background: linear-gradient(180deg,white,black);*/
+}
+
+#main1 .img1 img{
+    width: 100%;
+    height: 530px;
+}
+#main1 .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main1 .center a{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 70px;
+}
+/***************TRAIN-MAIN*******************/
+#train-main{
+    margin: 0px;
+}
+
+#train-main img{
+    width: 100%;
+    height: 500px;
+}
+#train-main .center1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#train-main .train1{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 80%;
+    height: 120px;
+    text-align: center;
+}
+
+#train-main .train1 p{
+    color: gray;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#train-main .center1 h2{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 60px;
+}
+/**************MAIN-MEMBERSHIP************/
+#member .mem{
+    margin: 0px;
+}
+#member .mem img{
+    width: 100%;
+    height: 450px;
+}
+#member .mem2{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+#member .mem1{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 80%;
+    height: 120px;
+    text-align: center;
+}
+
+#member .mem1 p{
+    color: gray;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#member .mem2 h2{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 60px;
+}
+/*************MEMBERBTN***************/
+#member .btn{
+    font-size: 27px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+/**************MAIN-CONTACT**************/
+#contact .img5{
+    margin: 0px;
+}
+
+#contact .img5 img{
+    width: 100%;
+    height: 500px;
+}
+#contact .center4{
+    position: absolute;
+    top: 26%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+#contact .center4 h2{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 60px;
+}
+#contact .text4{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 80%;
+    height: 120px;
+    text-align: center;
+}
+
+#contact .text4 p{
+    color: gray;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/**************GALLERY-MAIN**********************/
+#gallery .img4 img{
+    background-size: 50% 50%;
+    height: 450px;
+    width: 550px;
+    border: 1px solid black;
+/*    background-repeat: space;*/
+}
+
+.img4 img:hover{
+    outline: 3px solid black;
+}
+/*************MEMBERBF-MAIN**********************/
+#membf .membf1{
+    margin: 0px;
+}
+#membf .membf1 img{
+    width: 100%;
+    height: 450px;
+}
+#membf .center5{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+#membf .center5 h2{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 60px;
+}
+#membf .text5{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 80%;
+    height: 120px;
+    text-align: center;
+}
+
+#membf .text5 p{
+    color: gray;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/**************CONTACT-ARTICLE*******************/
+#address{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    margin-top: 70px;
+    border-bottom: 5px solid red;
+}
+#address .add{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 450px;
+}
+#address .add1{
+    background-color: white;
+    width: 55%;
+    height: 450px;
+    margin-top: 0%;
+}
+.add h4{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.add p{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15px 0px;
+    color: #5B5D63;
+}
+
+.add1 h4{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.add1 p{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15px 0px;
+    color: #5B5D63;
+}
+.add1 ul li{
+    list-style: none;
+    color: red;
+    font-size: 25px;
+}
+.add1 ul li a{
+    text-decoration: none;
+    color: red;
+}
+.add1 i{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: red;
+}
+/*****************ARTICLE****************/
+#flex1{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(180deg,white,gray,white);
+    margin-top: 50px;
+}
+#flex1 .section1{
+    margin-top: 30px;
+}
+#flex1 .section2{
+    margin-top: 30px;
+}
+.section1{
+    position: relative;
+}
+.section2{
+    position: relative;
+}
+#flex1 .section1 img{
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+}
+#flex1 .section2 img{
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+}
+.overlayxyz{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 500px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #CFD8DC;
+}
+.overlay1{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 400px;
+  width: 500px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #CFD8DC;
+}
+
+.overlayxyz a:hover{
+    text-decoration: none;
+}
+.overlay1 a:hover{
+    text-decoration: none;
+}
+.section1:hover .overlayxyz{
+    opacity: 0.6;
+/*    text-decoration: none;*/
+}
+.section2:hover .overlay1{
+    opacity: 0.6;
+}
+.overlayxyz a{
+    color: black;
+    text-decoration: none;
+}
+.overlay1 a{
+    color: black;
+    text-decoration: none;
+}
+/*
+.textxyz:hover {
+    text-decoration: none;
+    color: black;
+}
+*/
+.textxyz{
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 37px;
+    font-weight: bold;
+    color: black;
+}
+.textxyz p{
+    color: black;
+/*    text-decoration: none;*/
+}
+.text1xyz p{
+    color: black;
+}
+.text1xyz{
+    font-family: 'Crete Round', serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: bold;
+    color: black;
+}
+/********************SLIDEBAR****************/
+#sidebar{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+/*    background-color:black;*/
+}
+.img2 h2{
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 45px;
+}
+
+#sidebar p{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+/*    font-weight: bold;*/
+    color: black
+}
+/****************FOOTER************************/
+#foot{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 370px;
+}
+.footleft ul li{
+    list-style: none;
+    display: inline-block;
+     margin: 0px 41px;
+}
+.footleft ul li a:hover{
+    color: grey;
+}
+.footleft ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.footleft{
+    width: 80%;
+}
+.footright{
+    width: 45%;
+    border-left: 2px solid grey;
+}
+.footright h2{
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.footright p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Bellefair', serif;
+}
+
+.font{
+    margin-top: 35%;
+    width: 100%;
+}
+.font ul li{
+    display: inline;
+            font-size: 30px;
+            padding-left: 10px;
+}
+.fb:hover a{
+    color: #3b5999;
+}
+.yt:hover a{
+    color: #cd201f;
+}
+.in:hover a{
+    color: #e4405f;
+}
+.tw:hover a{
+    color: #55acee
+}
+.font ul li a{
+    color: white;
+}
+
+.f1{
+    float: left;
+    width: 33%;
+    padding: 30px;
+    height: 50px;
+/*    border: 1px solid red;*/
+    text-align: center;
+}
+.f1 h2,p{
+    color: white;
+}
+#foot a:hover .btn{
+    background-color: gray;
+}
+#foot .btn{
+    background-color: black;
+    border-radius: 80px 80px 80px 80px;
+    border: none;
+/*    border: 1px solid grey;*/
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+}
+.copyright{
+/*    border: 1px solid red;*/
+    margin-top: 40%;
+    margin-left: 5%;
+}
